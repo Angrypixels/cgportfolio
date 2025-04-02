@@ -9,6 +9,7 @@ const projects = [
       "images/projects/biomodelos-1.jpg",
       "images/projects/biomodelos-2.jpg",
       "images/projects/biomodelos-3.jpg",
+      "images/projects/biomodelos-4.jpg",
     ],
     description:
       "A collaborative online system to map species distributions in Colombia.",
@@ -28,6 +29,7 @@ const projects = [
       "images/projects/biotablero-1.jpg",
       "images/projects/biotablero-2.jpg",
       "images/projects/biotablero-3.jpg",
+      "images/projects/biotablero-4.jpg",
     ],
     description:
       "A modular dashboard for biodiversity data visualization and analysis.",
@@ -343,12 +345,12 @@ const projects = [
     category: "social",
     thumbnail: "images/projects/cartografia-viajera-thumb.jpg",
     images: [
-      "images/projects/cartografia-viajera-1.jpg",
-      "images/projects/cartografia-viajera-2.jpg",
-      "images/projects/cartografia-viajera-3.jpg",
-      "images/projects/cartografia-viajera-4.jpg",
-      "images/projects/cartografia-viajera-5.jpg",
-      "images/projects/cartografia-viajera-6.jpg",
+      "images/projects/cartografia-viajera-1.png",
+      "images/projects/cartografia-viajera-2.png",
+      "images/projects/cartografia-viajera-3.png",
+      "images/projects/cartografia-viajera-4.png",
+      "images/projects/cartografia-viajera-5.png",
+      "images/projects/cartografia-viajera-6.png",
     ],
     description:
       "Visual communication design for a participatory mapping project documenting pandemic experiences in Bogotá.",
@@ -397,6 +399,28 @@ const projects = [
     client: "igNEO Colombia for Municipio de Buenavista",
     technologies:
       "Adobe Illustrator, Environmental Graphics, Sign Design, Cartographic Typography",
+  },
+  {
+    id: 21,
+    title: "SURCA - Magdalena River Navigation Platform",
+    category: "ux",
+    thumbnail: "images/projects/surca-thumb.jpg",
+    images: [
+      "images/projects/surca-1.jpg", // Community profile page
+      "images/projects/surca-2.jpg", // Spatial domain indicators dashboard
+      "images/projects/surca-3.jpg", // Platform information with interactive map
+      "images/projects/surca-4.jpg", // Satellite imagery comparison view
+      "images/projects/surca-5.jpg", // Geographic indicators with interactive map
+      "images/projects/surca-6.jpg", // Data visualization with methodology tab
+    ],
+    description:
+      "UX/UI design for a comprehensive biodiversity and ecosystem services monitoring platform for Colombia's Magdalena River.",
+    fullDescription:
+      "SURCA is a specialized platform designed to monitor biodiversity and ecosystem services along Colombia's Magdalena River, supporting navigation recovery initiatives while identifying potential socio-environmental conflicts. I designed the complete user experience and interface for this data-rich environmental monitoring system.",
+    year: "2020",
+    client: "Instituto Alexander von Humboldt & CORMAGDALENA",
+    technologies:
+      "Adobe XD, UI/UX Design, Information Architecture, Data Visualization, Interactive Maps",
   },
 ];
 
